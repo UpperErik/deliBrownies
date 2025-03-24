@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deli brownies</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+
+            <div class="row">
+                <div class="four columns">
+                    <!-- <h2 class="txt-logo">DELI BROWNIES</h2> -->
+                    <img id="logo" src="img/logo.jpg" alt="logo delibrownies">
+                </div>
+
+                <div class="four columns">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Servicios</a></li>
+                            <li><a href="#">Productos</a></li>
+                            <li><a href="#nosotros">Nosotros</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th>Cantidad</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                                <a href="compra.html" id="btn-comprar" class="button u-full-width">Comprar</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>prueba algo nuevo</h2>
+                        <p>DISFRUTA LO DULCE SIN CULPA</p>
+                        <form action="#" id="busqueda" method="post" class="formulario">
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaría probar?"
+                                id="buscador">
+                            <input type="submit" id="submit-buscador" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- video -->
+ 
+<video class="video-preparacion" src="elaboracion.mp4" autoplay loop controls> nuestro proceso de elaboracion </video>
+<!-- fin video -->
+    <!-- -->
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Nuestros productos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    
+                    <div class="img-container">
+                        <img src="img/curso1.png" class="imagen-curso u-full-width">
+                        <div class="overlay">Delicioso y esponjoso.
+                            Hecho con los mas finos ingredientes, nuestro cacao es de la mejor calidad.
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <h4>Brownie tradicional</h4>
+                        <p>Nuestra recomendacion</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$50 <span class="u-pull-right ">$25</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="img/curso2.png" class="imagen-curso u-full-width">
+                        <div class="overlay">Delicioso y saludable.
+                            Hecho con los ingredientes mas saludables como harina de almendras, bajo en sodio y azucares, lo saludable no tiene porque quitarle lo rico!.
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Brownie Saludable</h4>
+                        <p>La mejor opcion saludable y deliciosa</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$60 <span class="u-pull-right ">$30</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="four columns">
+                <div class="card">
+
+                    <div class="img-container">
+                        <img src="img/curso3.png" class="imagen-curso u-full-width">
+                        <div class="overlay">...
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <h4>Brownie Incognito</h4>
+                        <p>Una dulce sensación que sorprendera a tu paladar</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$60 <span class="u-pull-right ">$30</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar
+                            Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+
+
+        </div>
+    </div> <!--.row-->
+    </div>
+
+
+    <section id="opiniones" class="container">
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="row">
+            <div class="twelve columns">
+                <div class="opinion">
+                    <div class="opinion-header">
+                        <img src="img/testiminio01.jpg" alt="Perfil" class="perfil-img">
+                        <div class="opinion-info">
+                            <h3>Diana Ruiz</h3>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <p>Hace un mes</p>
+                        </div>
+                    </div>
+                    <div class="opinion-text">
+                        <p>excelente servicio</p>
+                    </div>
+                </div>
+                <div class="opinion">
+                    <div class="opinion-header">
+                        <img src="img/testiminio02.jpg" alt="Perfil" class="perfil-img">
+                        <div class="opinion-info">
+                            <h3>christopher saldaña</h3>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <p>Hace cinco meses</p>
+                        </div>
+                    </div>
+                    <div class="opinion-text">
+                        <p>excelente servicio, al inicio tenia bajas expecteativas, pero el sabor, la textura y el chocolate es de excelente calidad muy recomendable</p>
+                    </div>
+                </div>
+                <div class="opinion">
+                    <div class="opinion-header">
+                        <img src="img/testiminio03jpg.jpg" alt="Perfil" class="perfil-img">
+                        <div class="opinion-info">
+                            <h3>Ximena Grethenberghj</h3>
+                            <div class="rating">
+                                <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                            </div>
+                            <p>Hace tres meses</p>
+                        </div>
+                    </div>
+                    <div class="opinion-text">
+                        <p>excelente servicio, sabor y atencion.
+                            jamas crei que un brownie fuera tan delicioso y saludable, supero todas mis expecteativas, hace mucho no probaba algo similar
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="nosotros" class="container">
+        <h2 class="encabezado">Sobre Nosotros</h2>
+        <div class="row">
+            <div class="one-third column">
+                <h3>Misión</h3>
+                <p>En Deli Brownies, nuestra misión es deleitar a nuestros clientes con brownies artesanales hechos con ingredientes frescos y de alta calidad.</p>
+                
+            </div>
+            <div class="one-third column">
+                <h3>Visión</h3>
+                <p>Convertirnos en la marca líder de brownies en el mercado nacional e internacional, reconocida por nuestra excelencia en calidad y creatividad.</p>
+                
+            </div>
+            <div class="one-third column">
+                <h3>Valores</h3>
+                <ul>
+                    <li>Calidad</li>
+                    <li>Innovación</li>
+                    <li>Pasión</li>
+                    <li>Sostenibilidad</li>
+                    <li>Autenticidad</li>
+                    <li>Felicidad</li>
+                    <li>Comunidad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav id="principal" class="menu">
+                        <a class="enlace" href="#">Para tu Negocio</a>
+                        <a class="enlace" href="#">Soporte</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="secundaria" class="menu">
+                        <a class="enlace" href="contacto.html">Contacto</a>
+                        <a class="enlace" href="politicaPrivacidad.html">Terminos, condiciones y privacidad</a>
+                        <a class="enlace" href="#">Empleo</a>
+                        <a class="enlace" href="#">Blog</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav id="tercer" class="menu">
+                        <a class="enlace" href="https://www.instagram.com/">Instagram</a>
+                        <a class="enlace" href="https://www.facebook.com">Facebook</a>
+
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/compra.js"></script>
+</body>
+
+</html>
